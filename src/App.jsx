@@ -16,23 +16,23 @@ let calcBmi=(e)=>{
     alert("Please Enter valid weight and height")
     } 
     else {
-    let bmi = (weight/(height*height))
-    setBmi(bmi.toFixed(1))
+        let bmi = (weight/(height*height))
+        setBmi(bmi.toFixed(1))
 
-    // message
+        // message
 
-    if(bmi<18.5){
-        setMessage("you are UnderWeight")
-    } 
-    else if (bmi>=18.5 && bmi<25){
-        setMessage("you are Healthy")
-    }
-    else if (bmi>=25 && bmi<30){
-        setMessage("you are OverWeight")
-    }
-    else{
-        setMessage("you are at Obesity")
-    }
+        if(bmi<18.5){
+            setMessage("you are UnderWeight")
+        } 
+        else if (bmi>=18.5 && bmi<25){
+            setMessage("you are Healthy")
+        }
+        else if (bmi>=25 && bmi<30){
+            setMessage("you are OverWeight")
+        }
+        else{
+            setMessage("you are at Obesity")
+        }
     }
 }
 
