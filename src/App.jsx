@@ -57,7 +57,7 @@ return (
             />
         </div>
         <div>
-            <label>height(cm)</label>
+            <label>height(m)</label>
             <input
             type="text"
             placeholder="Enter height(cm)"
